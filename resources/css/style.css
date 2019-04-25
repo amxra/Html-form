@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.name, .login, .choices, .text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+.check-choices{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.fn, .ln, .tit, .pw, .un{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.choices, .check-choices, .text{
+    padding: 1rem;
+}
+
+.check-choices label{
+    margin: 1rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-top: 1px solid white;
+}

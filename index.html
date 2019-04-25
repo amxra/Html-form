@@ -6,12 +6,105 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
-    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/style.css" rel="stylesheet">
 
 </head>
 <body>
 
     <h1>Practice HTML form</h1>
+
+
+    <form action="/example.html" method="POST">
+
+        <section class="name">
+            <div class="tit">
+                <label for="title">Title</label>
+                <br>
+                <select id="title" name="title">
+                    <option value="bla">bla</option>
+                    <option value="bla">bla</option>
+                    <option value="bla">bla</option>
+                </select>
+            </div>
+            <div class="fn">
+        <label for="firstname">First name</label>
+        <br>
+        <input type="text" id ="firstname" name="firstname">
+        </div>
+        <div class="ln">
+        <label for="lastname">Last name</label>
+        <br>
+        <input type="text" id="lastname" name="lastname">
+        </div>
+        </section>
+
+        <section class="login">
+            <div class="un">
+            <input id="username" type="text" name="username">
+            <br>
+            <label for="username">Username</label>
+            </div>
+            <div class="pw">
+            <input id="password" type="password" name="password">
+            <br>
+            <label for ="password">password</label>
+            </div>
+        </section>
+
+        <section class="choices">
+            <div class="check">
+            <p>Please select: </p>
+            </div>
+            <div class="check-choices">
+            <label for="HTML">html</label>
+            <input id="HTML" type="checkbox" name="catlog" value="html">
+            <br>
+            <label for="css">css</label>
+            <input id="css" type="checkbox" name="catlog" value="css">
+            <br>
+            <label for="js">javascript</label>
+            <input id="js" type="checkbox" name="catlog" value="js">
+            <br>
+            <label for="Python">python</label>
+            <input id="Python" type="checkbox" name="catlog" value="Python">
+            <br>
+            <label for="ruby">ruby</label>
+            <input id="ruby" type="checkbox" name="catlog" value="ruby">
+            <br>
+            <label for="java">java</label>
+            <input id="java" type="checkbox" name="catlog" value="java">
+            </div>
+        </section>
+
+        <section class="choices">
+            <div class="check">
+                <p>Please Select:</p>
+            </div>
+            <div class="check-choices">
+                <label for="fe">Frontend</label>
+                <input type="radio" name="focus" id="fe" value="fe">
+                <br>
+                <label for="be">Backend</label>
+                <input type="radio" name="focus" id="be" value="be">
+                <br>
+                <label for="fs">Fullstack</label>
+                <input type="radio" name="focus" id="fs" value="fs">
+            </div>
+        </section>
+
+        <section class="text">
+            <label for="txt">What's for favourite part of coding?</label>
+            <textarea id="txt" name="txt" rows="5" cols="30"></textarea>
+        </section>
+
+        <section class="submit">
+            <input type="submit" value="finish">
+        </section>
+        
+
+
+
+    </form>
     
 </body>
 </html>
