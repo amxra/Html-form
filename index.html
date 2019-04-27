@@ -10,29 +10,29 @@
 
 </head>
 <body>
+    
 
-    <h1>Practice HTML form</h1>
-
-
+   
     <form action="/example.html" method="POST">
-
+        <h1>Practice HTML form</h1>
+        <div class="form"></div>
         <section class="name">
             <div class="tit">
                 <label for="title">Title</label>
                 <br>
                 <select id="title" name="title">
                     <option value="bla">bla</option>
-                    <option value="bla">bla</option>
-                    <option value="bla">bla</option>
+                    <option value="bla">bla bla</option>
+                    <option value="bla">bla bla bla</option>
                 </select>
             </div>
             <div class="fn">
-        <label for="firstname">First name</label>
+        <label for="firstname">First name:</label>
         <br>
         <input type="text" id ="firstname" name="firstname">
         </div>
         <div class="ln">
-        <label for="lastname">Last name</label>
+        <label for="lastname">Last name:</label>
         <br>
         <input type="text" id="lastname" name="lastname">
         </div>
@@ -56,23 +56,23 @@
             <p>Please select: </p>
             </div>
             <div class="check-choices">
-            <label for="HTML">html</label>
             <input id="HTML" type="checkbox" name="catlog" value="html">
+            <label for="HTML">html</label>
             <br>
-            <label for="css">css</label>
             <input id="css" type="checkbox" name="catlog" value="css">
+            <label for="css">css</label>
             <br>
-            <label for="js">javascript</label>
             <input id="js" type="checkbox" name="catlog" value="js">
+            <label for="js">javascript</label>
             <br>
-            <label for="Python">python</label>
             <input id="Python" type="checkbox" name="catlog" value="Python">
+            <label for="Python">python</label>
             <br>
-            <label for="ruby">ruby</label>
             <input id="ruby" type="checkbox" name="catlog" value="ruby">
+            <label for="ruby">ruby</label>
             <br>
-            <label for="java">java</label>
             <input id="java" type="checkbox" name="catlog" value="java">
+            <label for="java">java</label>
             </div>
         </section>
 
@@ -93,18 +93,21 @@
         </section>
 
         <section class="text">
-            <label for="txt">What's for favourite part of coding?</label>
+            <label for="txt">What is your favourite thing about coding?</label>
             <textarea id="txt" name="txt" rows="5" cols="30"></textarea>
         </section>
 
         <section class="submit">
             <input type="submit" value="finish">
         </section>
+
+        <input type="hidden" name="redirect_to" value="sucess.html">
         
 
 
 
     </form>
+    </div>
     
 </body>
 </html>
