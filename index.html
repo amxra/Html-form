@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link href="resources/css/style.css" rel="stylesheet">
+
 
 </head>
 <body>
     
 
-   
-    <form action="/example.html" method="POST">
+   <div class="container">
+       <div class="col-s-12 col-xs-12 col-md-12 col-l-12">
+    <form action="sucess.html" method="POST">
         <h1>Practice HTML form</h1>
         <div class="form"></div>
         <section class="name">
@@ -80,7 +83,7 @@
             <div class="check">
                 <p>Please Select:</p>
             </div>
-            <div class="check-choices">
+            <div class="check-choice">
                 <label for="fe">Frontend</label>
                 <input type="radio" name="focus" id="fe" value="fe">
                 <br>
@@ -97,13 +100,13 @@
             <textarea id="txt" name="txt" rows="5" cols="30" required></textarea>
         </section>
 
-        <a class ="submit" href="sucess.html">Submit</a>
-<!--
+       <!-- <a class ="submit" href="sucess.html"><input type="submit" value="finish"></a> -->
+
         <section class="submit">
             <input type="submit" value="finish">
         </section>
 
-    -->
+   
     
 
         
@@ -113,6 +116,8 @@
 
     </form>
     </div>
+   </div>
+</div>
     
 </body>
 </html>
