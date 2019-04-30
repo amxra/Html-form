@@ -146,3 +146,19 @@
       width: 12rem;
     }
   }
+
+  @media only screen and (max-width:480px){
+
+    input[type="password"], .login input[type="text"]{
+      width: 10rem;
+    }
+
+    .check-choices label{
+      padding-right: 1rem;
+    }
+    .check-choice label{
+      padding-right: 0.3rem;
+    }
+  }
+
+ 
