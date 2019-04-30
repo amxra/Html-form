@@ -29,23 +29,23 @@
             <div class="fn">
         <label for="firstname">First name:</label>
         <br>
-        <input type="text" id ="firstname" name="firstname">
+        <input type="text" id ="firstname" name="firstname" required>
         </div>
         <div class="ln">
         <label for="lastname">Last name:</label>
         <br>
-        <input type="text" id="lastname" name="lastname">
+        <input type="text" id="lastname" name="lastname" required>
         </div>
         </section>
 
         <section class="login">
             <div class="un">
-            <input id="username" type="text" name="username">
+            <input id="username" type="text" name="username" required minlength="8" >
             <br>
             <label for="username">Username</label>
             </div>
             <div class="pw">
-            <input id="password" type="password" name="password">
+            <input id="password" type="password" name="password" required minlength="8">
             <br>
             <label for ="password">password</label>
             </div>
@@ -94,7 +94,7 @@
 
         <section class="text">
             <label for="txt">What is your favourite thing about coding?</label>
-            <textarea id="txt" name="txt" rows="5" cols="30"></textarea>
+            <textarea id="txt" name="txt" rows="5" cols="30" required></textarea>
         </section>
 
         <section class="submit">
